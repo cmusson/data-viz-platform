@@ -37,14 +37,14 @@ const Login = () => {
           <input
             type="email"
             placeholder="Email"
-            className="border p-2 rounded bg-bg-primary border-border-secondary"
+            className="text-white border p-2 rounded bg-bg-primary border-border-secondary"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
           />
           <input
             type="password"
             placeholder="Password"
-            className="border p-2 rounded bg-bg-primary border-border-secondary"
+            className="text-white border p-2 rounded bg-bg-primary border-border-secondary"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
           />
