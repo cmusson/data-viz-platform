@@ -23,7 +23,7 @@ const data = [
 
 const Chart = () => {
   return (
-    <div className="bg-bg-secondary border border-border-secondary p-4 pr-8 pt-6 mt-5 rounded min-w-96">
+    <div className="bg-bg-secondary border border-border-secondary p-4 pr-8 pt-6 mt-5 rounded min-w-84">
       <div className="w-full flex justify-end">
         <Button className="bg-bg-primary hover:bg-bg-secondary active:bg-bg-primary">
           <div className="flex flex-row gap-2 text-xs">

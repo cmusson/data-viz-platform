@@ -15,7 +15,7 @@ const Search = ({ className }: ISearchProps) => {
       <input
         type="text"
         placeholder="Search"
-        className="bg-transparent text-xs placeholder:text-white focus:outline-none focus:ring-0"
+        className="w-12 bg-transparent text-xs placeholder:text-white focus:outline-none focus:ring-0"
       />
     </div>
   );

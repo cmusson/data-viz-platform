@@ -3,8 +3,8 @@ import Search from '../Search';
 
 const Header = () => {
   return (
-    <header className="text-white flex items-center justify-between p-4 pl-0">
-      <nav className="flex gap-4">
+    <header className="text-white flex items-center justify-between p-4 sm:pl-0">
+      <nav className="flex gap-2">
         <NavButton
           variant="header"
           className="bg-bg-secondary border border-border-secondary"
