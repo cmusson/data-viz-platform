@@ -25,7 +25,7 @@ const Login = () => {
   };
 
   return (
-    <div className="flex items-center justify-center">
+    <div className="flex items-center justify-center mt-40">
       <div className="flex flex-col items-center p-4 border border-border-secondary rounded-lg w-fit bg-bg-primary">
         <button
           onClick={handleGoogleSignIn}
